@@ -1242,7 +1242,7 @@ GLFWbool _glfwConnectX11(int platformID, _GLFWplatform* platform)
         .postEmptyEvent = _glfwPostEmptyEventX11,
         
         // SkaLe3
-        .setWindowTitlebar = _glfwSetWindowTitlebarNull,
+        .setWindowTitleBar = _glfwSetWindowTitlebarNull,
 
         .getEGLPlatform = _glfwGetEGLPlatformX11,
         .getEGLNativeDisplay = _glfwGetEGLNativeDisplayX11,

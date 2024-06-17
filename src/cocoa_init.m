@@ -561,7 +561,7 @@ GLFWbool _glfwConnectCocoa(int platformID, _GLFWplatform* platform)
         .postEmptyEvent = _glfwPostEmptyEventCocoa,
 
         // SkaLe3
-        .setWindowTitlebar = _glfwSetWindowTitlebarNull,
+        .setWindowTitleBar = _glfwSetWindowTitlebarNull,
 
         .getEGLPlatform = _glfwGetEGLPlatformCocoa,
         .getEGLNativeDisplay = _glfwGetEGLNativeDisplayCocoa,
