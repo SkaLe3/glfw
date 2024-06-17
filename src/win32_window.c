@@ -1346,17 +1346,7 @@ static LRESULT CALLBACK windowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM l
 
                 break;
             }
-
-            case WM_ACTIVATE:
-            {
-                if (_glfw.hints.window.titlebar)
-                    break;
-
-				RECT title_bar_rect = {0};
-				InvalidateRect(hWnd, &title_bar_rect, FALSE);
-                break;
-            }
-            
+                
         case WM_ACTIVATE:
         {
             if (_glfw.hints.window.titlebar)
